@@ -1,3 +1,9 @@
+# 🚩 Challenge 2: 🏵 Token Vendor 🤖
+
+> This repository contains my solution for **Challenge 2: Token Vendor** from Speedrun Ethereum. 
+> 
+> The goal of this challenge is to create a decentralized token vending machine: an ERC-20 token (Gold / GLD) and a Vendor contract that sells and buys back tokens at a fixed exchange rate. This introduces the core mechanics that power DeFi's most important protocols like automated market makers (AMMs), the `approve`/`transferFrom` pattern, and simple access control.
+
 # 🏗 Scaffold-ETH 2
 
 <h4 align="center">
@@ -6,9 +12,6 @@
 </h4>
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
-
-> [!NOTE]
-> 🤖 Scaffold-ETH 2 is AI-ready! It has everything agents need to build on Ethereum. Check `.agents/`, `.claude/`, `.opencode` or `.cursor/` for more info.
 
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript.
 

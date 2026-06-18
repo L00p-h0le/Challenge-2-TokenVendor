@@ -21,3 +21,12 @@ node_modules
 
 # cli
 dist
+
+# hidden tool metadata
+.agents
+.ai
+.claude
+.cursor
+.github
+.husky
+.opencode
