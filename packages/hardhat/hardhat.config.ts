@@ -11,7 +11,7 @@ const deployerPrivateKey =
 
 // If not set, it uses ours Alchemy's default API key.
 // You can get your own at https://dashboard.alchemyapi.io
-const providerApiKey = process.env.ALCHEMY_API_KEY || "IZYEU2cWBgnFmgiTAgpWD";
+const providerApiKey = process.env.ALCHEMY_API_KEY || "q1KC7KMIPGtd5enfR17vd";
 
 export const etherscanApiKey = process.env.ETHERSCAN_API_KEY || "DNXJA8RX2Q3VZ4URQIWP7Z68CJXQZSC6AW";
 
@@ -72,6 +72,7 @@ export default defineConfig({
       type: "http",
       url: `https://eth-sepolia.g.alchemy.com/v2/${providerApiKey}`,
       accounts: [deployerPrivateKey],
+       gasPrice: 5000000000,
     },
     optimism: {
       type: "http",
